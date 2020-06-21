@@ -32,7 +32,7 @@ export const skillsData = {
   skillOne: 'iOS Development',
   skillTwo: 'Web Development',
   skillThree: 'Backend Development',
-  skillFour: 'Data visualization',
+  skillFour: 'Data Visualization',
   skillOneImg: 'ios.png',
   skillTwoImg: 'web.png',
   skillThreeImg: 'backend.png',
@@ -46,9 +46,9 @@ export const projectsData = [
     img: 'mmm-header.png',
     title: 'ACM Member to Meeting Matcher',
     info:
-      'My team and I developed a service that organizes meeting and event information in one central calendar ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also reccomends meetings and events to users based on keywords parsed from their resume.',
+      'My team and I developed a service that organizes meeting and event information in one central calendar ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also recommend meetings and events to users based on keywords parsed from their resume.',
     info2:
-      'I worked on the reccomendation system and resume parsing api. This project won second place at HackIllinois 2020! See our DevPost below.',
+      'I worked on the recommendation system and resume parsing api. This project won second place at HackIllinois 2020! See our DevPost below.',
     url: 'Devpost',
     repo: 'https://devpost.com/software/uiuc-acm-member-to-meeting-matcher-service', // if no repo, the button will not show up
     url2: 'GitHub',
