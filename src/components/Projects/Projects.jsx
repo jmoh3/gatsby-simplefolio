@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project,index) => {
-            const { title, info, info2, url, repo, img } = project;
+            const { title, info, info2, url, repo, url2, repo2, img } = project;
 
             return (
               <Row key={index}>
@@ -49,23 +49,23 @@ const Projects = () => {
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
-                      <a
+                     {repo && <a
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="cta-btn cta-btn--hero"
-                        href={url || '#!'}
+                        className="cta-btn cta-btn--proj"
+                        href={repo}
                       >
-                        See Live
-                      </a>
-
-                      {repo && (
+                        {url || 'Source Code'}
+                      </a>}
+                      {repo2 && (
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
+                          className="cta-btn cta-btn--proj"
+                          href={repo2}
+                          style={{marginLeft: '1em'}}
                         >
-                          Source Code
+                          {url2 || 'Source Code'}
                         </a>
                       )}
                     </div>
@@ -81,7 +81,7 @@ const Projects = () => {
                   >
                     <div className="project-wrapper__image">
                       <a
-                        href={url || '#!'}
+                        href={repo || '#!'}
                         target="_blank"
                         aria-label="Project Link"
                         rel="noopener noreferrer"
