@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello!  My name is ',
   name: 'Jackie Oh',
-  subtitles: [' software engineer', ' researcher', ' UIUC student'],
+  subtitles: [' software engineer', ' UIUC student', ' researcher'],
   cta: 'Learn more',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'I’m a software engineer currently studying Computer Science at University of Illinois at Urbana Champaign! I am passionate about developing beautiful products that people can use in their everyday lives.',
+    'Hi, my name is Jackie! I’m a software engineer currently studying Computer Science at University of Illinois at Urbana Champaign! I am passionate about developing beautiful products that people can use in their everyday lives.',
   paragraphTwo:
     'In addition to studying Computer Science, I am also pursuing a minor in Mathematics. I love finding ways I can apply my interest in math to things I do.',
   paragraphThree:
@@ -102,7 +102,7 @@ export const workData = [
     title: 'Uber Technologies, Inc.',
     year: 'Software Engineer Intern, Summer 2020',
     info:
-      "I've joined the Safety Controls team as a Backend Engineer, developing apis in Golang. I'm currently working on a project that automates the transfer of Geofence data from the RapidSOS API to Uber using Slackbot and Cadence workflow.",
+      "I've joined the Safety Controls team as a Backend Engineer, developing APIs in Golang. I'm currently working on a project that automates the transfer of Geofence data from the RapidSOS API to Uber using Slackbot and Cadence workflow.",
     info2: 'More on this coming soon!',
   },
   {
