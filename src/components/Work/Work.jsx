@@ -26,7 +26,7 @@ const Work = () => {
         <div className="job-wrapper">
           <Title title="Work" />
           {work.map((job,index) => {
-            const { title, year, info, info2, url, repo, img } = job;
+            const { title, year, info, info2 } = job;
 
             return (
               <Row key={index}>
@@ -39,8 +39,8 @@ const Work = () => {
                     distance="30px"
                   >
                     <div className="job-wrapper__text">
-                      <h3 className="job-wrapper__text-title">{title || 'Job Title'}</h3>
-                      <h3 className="job-wrapper__text-subtitle">{year || ''}</h3>
+                      <h3 className="job-wrapper__text-title">{title}</h3>
+                      <h3 className="job-wrapper__text-subtitle">{year}</h3>
                     </div>
                   </Fade>
                 </Col>
@@ -55,10 +55,9 @@ const Work = () => {
                     <div className="job-wrapper__image">
                       <div>
                         <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          {info}
                           </p>
-                          <p className="mb-4">{info2 || ''}</p>
+                          <p className="mb-4">{info2}</p>
                       </div>
                     </div>
                   </Fade>

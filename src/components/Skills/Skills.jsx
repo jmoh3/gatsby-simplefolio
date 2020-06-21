@@ -46,7 +46,7 @@ const Skills = () => {
                     <div data-tilt className="thumbnail rounded">
                       <SkillImg alt={skillOne} filename={skillOneImg} />
                       <p className="skills-wrapper__info-text">
-                        {skillOne || ''}
+                        {skillOne}
                       </p>
                     </div>
                   </div>
@@ -74,7 +74,7 @@ const Skills = () => {
                     <SkillImg alt={skillTwo} filename={skillTwoImg} />
                   </div>
                   <p className="skills-wrapper__info-text">
-                    {skillTwo || ''}
+                    {skillTwo}
                   </p>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Skills = () => {
                     <SkillImg alt={skillThree} filename={skillThreeImg} />
                   </div>
                   <p className="skills-wrapper__info-text">
-                    {skillThree || '' }
+                    {skillThree}
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ const Skills = () => {
                     <SkillImg alt={skillFour} filename={skillFourImg} />
                   </div>
                   <p className="skills-wrapper__info-text">
-                    {skillFour || ''}
+                    {skillFour}
                   </p>
                 </div>
               </div>
