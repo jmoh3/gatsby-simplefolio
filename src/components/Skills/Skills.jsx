@@ -29,7 +29,7 @@ const Skills = () => {
         <Title title="Skills" />
         <Row className="skills-wrapper">
           <Col md={3} sm={6}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
             <Tilt options={{
                   reverse: false,
                   max: 8,
@@ -56,7 +56,7 @@ const Skills = () => {
           </Col>
 
           <Col md={3} sm={6}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
             <Tilt options={{
                   reverse: false,
                   max: 8,
@@ -83,7 +83,7 @@ const Skills = () => {
           </Col>
 
           <Col md={3} sm={6}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
             <Tilt options={{
                   reverse: false,
                   max: 8,
@@ -110,7 +110,7 @@ const Skills = () => {
           </Col>
 
           <Col md={3} sm={6}>
-            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
+            <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={600} distance="30px">
             <Tilt options={{
                   reverse: false,
                   max: 8,

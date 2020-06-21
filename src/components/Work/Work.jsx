@@ -35,7 +35,7 @@ const Work = () => {
                     left={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={500}
+                    delay={400}
                     distance="30px"
                   >
                     <div className="job-wrapper__text">
@@ -49,7 +49,7 @@ const Work = () => {
                     right={isDesktop}
                     bottom={isMobile}
                     duration={1000}
-                    delay={1000}
+                    delay={600}
                     distance="30px"
                   >
                     <div className="job-wrapper__image">

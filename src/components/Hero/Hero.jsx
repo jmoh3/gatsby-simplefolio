@@ -30,8 +30,6 @@ const Header = () => {
             <span className="text-color-main">{name}</span>
             <br />
             <h1 className="hero-subtitle">
-              {'I\'m a'}
-              <span style={{width: '0.25em'}}></span>
               <Typewriter
                 options={{
                   strings: subtitles,
