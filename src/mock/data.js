@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Hello!  My name is ',
   name: 'Jackie Oh',
-  subtitles: ['I\'m  a software engineer', 'I\'m a UIUC student', 'I\'m a researcher'],
+  subtitles: ["I'm  a software engineer", "I'm a UIUC student", "I'm a researcher"],
   cta: 'Learn more',
 };
 
@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hi, my name is Jackie! I’m a software engineer currently studying Computer Science at University of Illinois at Urbana Champaign! I am passionate about developing beautiful products that people can use in their everyday lives.',
+    'Hi, my name is Jackie! I’m a software engineer currently studying Computer Science at University of Illinois at Urbana Champaign. I am passionate about developing beautiful products that people can use in their everyday lives.',
   paragraphTwo:
     'In addition to studying Computer Science, I am also pursuing a minor in Mathematics. I love finding ways I can apply my interest in math to things I do.',
   paragraphThree:
     'I have experience in web, iOS, and backend development. I have so much more to explore in this field and I love learning new things.',
-  resume: 'https://drive.google.com/file/d/1BErjfHzkBhhrKGe7ND-b65PU3N3niywc/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1VR8gHRlGPnLf-XMJZqW92EXmTrweDBhH/view?usp=sharing',
 };
 
 // SKILLS DATA
@@ -46,9 +46,9 @@ export const projectsData = [
     img: 'mmm-header.png',
     title: 'ACM Member to Meeting Matcher',
     info:
-      'My team and I developed a service that organizes meeting and event information in one central calendar ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also recommend meetings and events to users based on keywords parsed from their resume.',
+      'My team and I developed a service that organizes meeting and event information in one central calendar for ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also recommend meetings and events to users based on keywords parsed from their resume.',
     info2:
-      'I worked on the recommendation system and resume parsing api. This project won second place at HackIllinois 2020! See our DevPost below.',
+      'I worked on the recommendation system and resume parsing API. This project won second place at HackIllinois 2020! Check out our DevPost below for a full description.',
     url: 'Devpost',
     repo: 'https://devpost.com/software/uiuc-acm-member-to-meeting-matcher-service', // if no repo, the button will not show up
     url2: 'GitHub',
@@ -59,9 +59,9 @@ export const projectsData = [
     img: 'dollosat.png',
     title: 'DolloSAT',
     info:
-      'Single Cell Sequencing allows one to observe the prescence of Single Nucleotide Variants (SNVs) within a tumor cell. Using this data, we want to be able to infer the evolutionary history of mutations within a tumor in order to understand the mechanisms behind intratumor heterogeneity and identify targets for treatment.',
+      'Single Cell Sequencing allows one to observe the presence of Single Nucleotide Variants within tumor cells. Using this data, we want to be able to infer the evolutionary history of mutations within a tumor in order to understand the mechanisms behind intra-tumor heterogeneity and identify targets for treatment.',
     info2:
-      'This project samples phylogenetic trees for Single Cell Sequencing data using UniGen, a sampler for boolean satisfiability. This project has been developed under the guidance of Professor El Kebir.',
+      'This project samples phylogenetic trees for tumor cells using UniGen, a sampler for the boolean satisfiability problem. This project has been developed under the guidance of Professor El-Kebir.',
     url: 'GitHub',
     repo: 'https://github.com/jmoh3/DolloSAT', // if no repo, the button will not show up
     url2: '',
@@ -112,7 +112,7 @@ export const workData = [
     info:
       "I developed an intranet web application for State Farm's local philanthropy efforts using the ASP.NET framework and Microsoft SQL Server. This web application serves as the primary management and registration platform for State Farm's internal facing volunteering, education, career development, and social events, and allows administrators to see real time analytics on attendance and feedback for events.",
     info2:
-      "I also served as the lead iOS developer for team that won Executive's Choice Winner at State Farm's annual Hack Day out of roughly 1,000 participants",
+      "I also served as the lead iOS developer for the team that was voted the Executive's Choice Winner at State Farm's annual Hack Day out of roughly 1,000 participants. We built a computer vision application that assisted with the insurance claims process at the scene of an accident.",
   },
   {
     id: uuidv1(),
@@ -121,7 +121,7 @@ export const workData = [
     info:
       'At this internship, I developed an iOS camera application that implemented Core ML and Metal Performance Shaders to denoise images. I also developed iOS camera application to take RAW format images with custom exposure and ISO to assist in collection of training data for neural networks.',
     info2:
-      'In addition to iOS development, I also learned the basics of Keras and Tensorflow and assisted in development of the neural network architecture.',
+      'In addition to iOS development, I also learned the basics of Keras and Tensorflow and assisted in the development of the neural network architecture.',
   },
 ];
 
