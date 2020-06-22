@@ -46,7 +46,7 @@ export const projectsData = [
     img: 'mmm-header.png',
     title: 'ACM Member to Meeting Matcher',
     info:
-      'My team and I developed a service that organizes meeting and event information in one central calendar for ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also recommend meetings and events to users based on keywords parsed from their resume.',
+      'My team and I developed a service that organizes meeting and event information in one central calendar for ACM (Association for Computing Machinery), a CS student organization that has over 1,000 members at UIUC. It also recommends meetings and events to users based on keywords parsed from their resume.',
     info2:
       'I worked on the recommendation system and resume parsing API. This project won second place at HackIllinois 2020! Check out our DevPost below for a full description.',
     url: 'Devpost',
