@@ -82,6 +82,19 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
+    img: 'salus.png',
+    title: 'Salus',
+    info:
+      'With the recent rise of school shootings, schools and communities are racing to find ways to be better prepared for the worst. Salus is a campus emergency preparation system that helps school administrators keep students safe in the event of an emergency.',
+    info2:
+      'We developed a web interface that allows administrators to view the locations of students when an emergency is activated and mark safe zones, and a mobile app for students that will track their location and allow them to view safe zones if (and only if) an emergency is initiated.',
+    url: 'Devpost',
+    repo: 'https://devpost.com/software/salus-zn7twj', // if no repo, the button will not show up
+    url2: 'GitHub',
+    repo2: 'https://github.com/jmather625/Salus', // if no repo, the button will not show up
+  },
+  {
+    id: uuidv1(),
     img: 'Scan2Plan.png',
     title: 'Scan2Plan',
     info:
