@@ -24,7 +24,7 @@ export const aboutData = {
     'In addition to studying Computer Science, I am also pursuing a minor in Mathematics. I love finding ways I can apply my interest in math to things I do.',
   paragraphThree:
     'I have experience in web, iOS, and backend development. I have so much more to explore in this field and I love learning new things.',
-  resume: 'https://drive.google.com/file/d/1VR8gHRlGPnLf-XMJZqW92EXmTrweDBhH/view?usp=sharing',
+  resume: '/Jackie_Oh_Resume.pdf',
 };
 
 // SKILLS DATA
@@ -115,8 +115,9 @@ export const workData = [
     title: 'Uber Technologies, Inc.',
     year: 'Software Engineer Intern, Summer 2020',
     info:
-      "I've joined the Safety Controls team as a Backend Engineer, developing APIs in Golang. I'm currently working on a project that automates the transfer of Geofence data from the RapidSOS API to Uber using Slackbot and Cadence workflow.",
-    info2: 'More on this coming soon!',
+      'I joined the Safety Controls team as a backend engineer and developed APIs using Golang. I completed a project that automates the fetching and validation of Geofence data from a third party API. I also assisted with the expansion of emergency assistance features to new regions.',
+    info2:
+      'During this summer, I also started and organized the first Safety intern hackathon. As this internship was virtual, this was an amazing opportunity to get to know and work with other interns and develop brand new safety features.',
   },
   {
     id: uuidv1(),
